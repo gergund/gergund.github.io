@@ -1,0 +1,68 @@
+apiVersion: v1
+entries:
+  splunk-kubernetes-logging:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2020-09-10T13:15:04.6733969+03:00"
+    description: Collect logs with Splunk.
+    digest: bb32f3ee580dfc58854300be93c241b8cf696f4b6c1fa447c0027684426dff9e
+    home: https://github.com/splunk/splunk-connect-for-kubernetes/tree/master/helm-chart/charts/splunk-kubernetes-logging
+    keywords:
+    - splunk
+    - monitoring
+    - logging
+    maintainers:
+    - email: DataEdge@splunk.com
+      name: Splunk Inc.
+    name: splunk-kubernetes-logging
+    sources:
+    - https://github.com/splunk/splunk-connect-for-kubernetes/tree/master/helm-chart/charts/splunk-kubernetes-logging
+    - https://github.com/splunk/fluent-plugin-splunk-hec
+    urls:
+    - https://gergund.github.io/splunk-helm-repo/splunk-kubernetes-logging-1.3.0.tgz
+    version: 1.3.0
+  splunk-kubernetes-metrics:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2020-09-10T13:15:04.6761058+03:00"
+    description: Collect metrics with Splunk.
+    digest: 9cfb7e2f7d80bc6cc6097bee982a13482583a5656c1fb4d71a8dc5bfc109ac79
+    home: https://github.com/splunk/splunk-connect-for-kubernetes/tree/master/helm-chart/charts/splunk-kubernetes-metrics
+    keywords:
+    - splunk
+    - monitoring
+    - metric
+    maintainers:
+    - email: DataEdge@splunk.com
+      name: Splunk Inc.
+    name: splunk-kubernetes-metrics
+    sources:
+    - https://github.com/splunk/splunk-connect-for-kubernetes/tree/master/helm-chart/charts/splunk-kubernetes-metrics
+    - https://github.com/splunk/fluent-plugin-splunk-hec
+    urls:
+    - https://gergund.github.io/splunk-helm-repo/splunk-kubernetes-metrics-1.3.0.tgz
+    version: 1.3.0
+  splunk-kubernetes-objects:
+  - apiVersion: v1
+    appVersion: 1.3.0
+    created: "2020-09-10T13:15:04.6782282+03:00"
+    description: Collect Kubernetes objects with Splunk.
+    digest: 43e8405ecd2ceb0015d87747cf906ed7438c15d1f45e3537698d622f8a350efd
+    home: https://github.com/splunk/splunk-connect-for-kubernetes/tree/master/helm-chart/charts/splunk-kubernetes-objects
+    keywords:
+    - splunk
+    - monitoring
+    - objects
+    - metadata
+    maintainers:
+    - email: DataEdge@splunk.com
+      name: Splunk Inc.
+    name: splunk-kubernetes-objects
+    sources:
+    - https://github.com/splunk/splunk-connect-for-kubernetes/tree/master/helm-chart/charts/splunk-kubernetes-objects
+    - https://github.com/splunk/fluent-plugin-splunk-hec
+    - https://github.com/splunk/fluent-plugin-kubernetes-objects
+    urls:
+    - https://gergund.github.io/splunk-helm-repo/splunk-kubernetes-objects-1.3.0.tgz
+    version: 1.3.0
+generated: "2020-09-10T13:15:04.6677825+03:00"
